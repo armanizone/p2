@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "geolocation-js",
-    "slug": "geolocation-js",
+    "name": "SIS-2117",
+    "slug": "SIS-2117",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,13 +16,24 @@
       "supportsTablet": true
     },
     "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCyDdGi0Mo23NGJU6eTvpS7eOFXsc6fT2E"
+        }
+      },
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.laflame127.SIS2117"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "254c0921-e703-4e1a-813b-e307d0c9d975"
+      }
     }
   }
 }

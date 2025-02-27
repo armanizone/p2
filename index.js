@@ -1,6 +1,9 @@
 import { registerRootComponent } from 'expo';
+import eventsource from "react-native-sse";
 
-import App from './App';
+global.EventSource = eventsource;
+
+import App from './src/App';
 
 // registerRootComponent calls AppRegistry.registerComponent('main', () => App);
 // It also ensures that whether you load the app in Expo Go or in a native build,
